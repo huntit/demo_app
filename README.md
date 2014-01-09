@@ -19,6 +19,13 @@ $ git push
 `Push changes to github origin master`
 
 ### notes:
+## Model:
 * Length validation: edit app/models/model_name.rb, and add:  
 `validates :content, length: { maximum: 140 }`  
+* has_many and belongs_to: edit app/models/model_name.rb, and add:
+`has_many :microposts`
+Edit 2nd model and add:
+`belongs_to : user`
 
+## Heroku:
+[enigmatic-anchorage-4562.git](enigmatic-anchorage-4562.git)
