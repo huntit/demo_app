@@ -1,4 +1,3 @@
-== README
 
 # Demo Rails App
 
@@ -18,3 +17,8 @@ $ git commit -a -m "Improve the README file"
 
 $ git push  
 `Push changes to github origin master`
+
+### notes:
+* Length validation: edit app/models/model_name.rb, and add:  
+`validates :content, length: { maximum: 140 }`  
+
