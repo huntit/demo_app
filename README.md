@@ -27,5 +27,9 @@ $ git push
 Edit 2nd model and add:
 `belongs_to : user`
 
-## Heroku:
-[enigmatic-anchorage-4562.git](enigmatic-anchorage-4562.git)
+## Heroku:  
+* heroku create  
+* git push keroku master  
+[enigmatic-anchorage-4562](http://enigmatic-anchorage-4562.herokuapp.com)
+* heroku run rake db:migrate  
+`migrate the production database`
